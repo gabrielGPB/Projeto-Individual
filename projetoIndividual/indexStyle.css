@@ -1,0 +1,11 @@
+.header{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.homeIcon{
+width: 10%;
+}
