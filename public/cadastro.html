@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastroStyle.css">
+    <title>FLIPBROS</title>
+
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="container">
+
+            <img class="homeIcon" src="imgs/homeIcon.gif" alt="">
+            <h1 class="tituloHeader"> <a href="index.html">FLIPBROS</a> </h1>
+            <ul class="navbar">
+                <li> <a href="index.html">História</a> </li>
+                <li>
+                    <a href="beneficios.html">Benefícios</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="login.html">Login</a>
+                </li>
+                <li class="agora">
+                    <a href="cadastro.html">Cadastro</a>
+                </li>
+            </ul>
+            
+        </div>
+
+    </div>
+
+    
+
+        <div class="containerLogin">
+            <div class="card">
+                <h2>Cadastro</h2>
+                <div class="formulario">
+
+
+                    <span class="tipo_campo">Nome:</span>
+                    <input id="nome_input" type="text" placeholder="Login">
+
+                    <span class="tipo_campo">CPF:</span>
+                    <input id="cpf_input" type="text" placeholder="Login">
+
+                    <span class="tipo_campo">E-mail:</span>
+                    <input id="email_input" type="text" placeholder="Login">
+
+                    <span class="tipo_campo">Senha:</span>
+                    <input id="senha_input" type="password" placeholder="******">
+
+                    <span class="tipo_campo">Confirmação da Senha:</span>
+                    <input id="confirmacao_senha_input" type="password" placeholder="******">
+
+                    <button class="btn" onclick="entrar()">Entrar</button>
+
+
+                </div>
+
+                <div id="div_aguardar" class="loading-div">
+                    <img src="./assets/circle-loading.gif" id="loading-gif">
+                </div>
+
+                <div id="div_erros_login">
+
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

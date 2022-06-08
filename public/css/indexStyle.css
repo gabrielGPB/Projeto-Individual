@@ -1,0 +1,133 @@
+/*
+Paleta de cores
+
+#212121 Preto
+#323232 Cinza
+#0D7377 Verde escuro
+#14FFEC Verde claro
+
+*/
+
+/* header */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #212121;
+}
+
+.header {
+    border-bottom: 2px solid #14FFEC;
+    display: flex;
+}
+
+
+.container {
+    width: 80%;
+    display: flex;
+    margin: auto;
+
+}
+
+.header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: #14FFEC /*#C02739*/;
+}
+
+.agora {
+    font-weight: 800;
+}
+
+.navbar{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+
+    /* color: #C02739;
+    text-shadow: 1px 1px 1px black; */
+
+    color: #14FFEC /*#C02739*/;
+    text-shadow: 2px 2px 5px  #14FFEC;
+  }
+
+  .navbar ul{
+    display: flex;
+    width: 300px ;
+    justify-content: space-evenly;
+    }
+
+.tituloHeader{
+    font-size: 150%;
+    padding-right: 45%;
+    font-weight: 500;
+    width: fit-content;
+    color: #14FFEC /*#C02739*/;
+    text-shadow: 2px 2px 5px  #14FFEC;
+}
+
+.homeIcon {
+    width: 8%;
+    margin-left: -5%;
+}
+
+/* conteudo  */
+
+.caixa1{
+    height: 20vh;
+    background-color: #323232;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    display: flex;
+    font-size: 30px;
+}
+
+.caixa2{
+    height: auto;
+    background-color: #0a5255;
+    color: white;
+    display: flex;
+
+}
+
+.container-caixa2{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto{
+    display: flex;
+    
+}
+
+.texto-imagem{
+    display: flex;
+}
+
+.texto-imagem div{
+    margin-left: 5%;
+}
+
+.texto-imagem img{
+    height: 300px;
+    width: 40%;
+}
+
